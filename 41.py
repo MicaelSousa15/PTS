@@ -1,3 +1,4 @@
 for i in range(2,10,2):
     print(i)
-# Vai começar de 2 ate o antecessor de 10, pulando de 2 em 2 por isso (2,10,2)
+#começa com 2 ate 10 e o intervalo e 2 colocamos
+# o 11 pq oultimo numero e o intervalo então não conta

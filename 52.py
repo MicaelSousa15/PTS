@@ -1,5 +1,5 @@
 lista = ['Primeiro','Segundo','Terceiro','Quarto','Quinto']
-lista2 = (lista[0:3])
+lista2 = (lista[:])
 lista.append('Sexto')
 lista2.append('Decimo')
 print(lista)

@@ -1,5 +1,5 @@
 lista = ['Banana','Melão','Morango','Melância']
-lista2 = (lista[0:2])
+lista2 = (lista[:])
 lista.append('Goiaba')
 lista2.append('Abacate')
 print('\nFrutas que eu gosto')

@@ -1,8 +1,7 @@
-tupla = (1,2,3,4,5)
-string = (1,5)
+tupla = (200,5)
 for x in tupla:
     print(x)
-tupla = string
-print('')
-for c in tupla:
-    print(c)
+tupla[0] = 1
+for i in tupla:
+    print(i)
+# Vai dar erro porque tuplas não podem ser modificadas

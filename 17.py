@@ -1,5 +1,3 @@
-string = ['Nome','Sobrenome','idade']
-s_string = string.pop()
-variavel = 'Viagem'
-conc = s_string.title()+' '+variavel.title()
-print(conc)
+var1 = ['carro','moto','bike']
+var2 = var1.pop()
+print("\n Eu cai de "+var2.title()+".")
