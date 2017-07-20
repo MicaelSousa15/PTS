@@ -1,5 +1,7 @@
-idade1 = 15
-idade2 = 14
-print(idade1 and idade2 == 14)
-# O resultado vai ser True porque uma das duas é igual a 14
-# Idade1 ou Idade2 == 14
+>>> idade1 = 17
+>>> idade2 = 18
+>>> idade >= 17 or idade2 >= 21
+True
+>>> idade >= 17 or idade2
+True
+>>> # Os 2 deram True porque ele compara ou um ou outro, então se algum estiver certo, vai ser True
