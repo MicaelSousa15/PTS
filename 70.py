@@ -1,4 +1,8 @@
-idade1 = 18
-idade2 = 17
-print(idade1 and idade2 == 15)
-# O resultado vai ser False porque as 2 tem que ser igual a 15
+>>> idade = 18
+>>> idade2 = 21
+>>> idade >= 24 and idade2
+False
+>>> #Retorna falso porque ele compara idade a 24 e ao valor da variavel 2
+>>> idade >= 17 or idade2
+True
+>>> #Retorna verdadeiro porque ele compara uma das duas
